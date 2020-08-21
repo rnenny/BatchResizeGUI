@@ -14,8 +14,8 @@ def windowGUI():
             sg.FolderBrowse(),
         ],
         [sg.Button("Downscale")],
-        [sg.Text("Width (px):"), sg.InputText()],
-        [sg.Text("Height (px):"), sg.InputText()],
+        [sg.Text("Width (px)  "), sg.InputText()],
+        [sg.Text("Height (px) "), sg.InputText()],
         [sg.Text("List of images to be downscaled:")],
         [
             sg.Listbox(
